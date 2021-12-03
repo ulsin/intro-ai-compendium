@@ -38,6 +38,12 @@
         - [Polynomial Regression](#polynomial-regression)
   - [Reinforcement learning](#reinforcement-learning)
 - [Limitations](#limitations)
+  - [Excitement around AI](#excitement-around-ai)
+  - [Reality of AI](#reality-of-ai)
+  - [Examples](#examples)
+    - [1. Driverless Cars](#1-driverless-cars)
+    - [2. Data is harder to come by](#2-data-is-harder-to-come-by)
+    - [3. Hard for businesses to adopt AI](#3-hard-for-businesses-to-adopt-ai)
 
 # Intro
 - AI smart and dumb at once
@@ -574,3 +580,65 @@ Important types
 * Scaling and tweaking the neural network controlling the agent is another challenge. There is no way to communicate with the network other than through the system of rewards and penalties.
 
 # Limitations
+
+## Excitement around AI
+* PwC and McKinsey have predicted that AI will add $16 trn to the world economy by 2030
+* Google’s boss, has described developments in AI as “more profound than fire or electricity”. 
+* AI is an advanced algorithm: All things which were impossible to do by human programmers can be done by A.I
+* Autonomous robots (we will be able to make General A.I).
+* AI is the new electricity: Its a force which will power everything
+* Self driving car companies predict that robo taxis will revolutionalize transport
+* In 2016 Geoffrey Hinton, remarked that we should stop training radiologists and instead unleash the power of A.I in health
+* An AI firm called BlueDot claims it spotted signs of a novel virus in reports from Chinese hospitals as early as December 2019 (ref Economist).
+* Almost all companies today either have an A.I strategy or are thinking of adopting one.
+
+<p align="center">
+    <img src="pictures/ai-statistics-hype.png" style="width: auto;" alt="">
+</p>
+
+## Reality of AI
+* A.I has evolved, yes, but it is still far away from the promise of a fully autonomous system
+* Self driving cars are more capable but still are not safe enough to put on the streets
+* Use of A.I in health is taking longer than expected. There is still a worldwide shortage of human radiologists
+* Most companies find A.I hard to implement
+* a survey of European ai startups by mmc, a venture-capital fund, found that 40% did not seem to be using any ai at all (ref: Economist)
+
+## Examples
+**The hype of A.I has far exceeded the science of A.I**
+**After years of hype, people think A.I has still not delivered**
+**Training an A.I algorithm to achieve the last 10% is much much harder than the first 90%**
+
+### 1. Driverless Cars
+1. Tesla claims to have autonomous driving (2018) but drivers still need to keep their hands on the wheels
+2. General Motors planned to launch self driving taxis in San Francisco by 2019.
+3. In 2019 a self drivign car by Uber became the first to kill a pedestrian
+4. Waymo in America and WeRide in China, are geographically limited and rely on human safety drivers. 
+5. Many driverless car startups going bankrupt because the technology is hard to master
+
+### 2. Data is harder to come by
+1. Amazon Go stores was a unique idea. So unique that it was hard for them to find data to train their algorithms
+  1. there was no such training  set featuring people browsing  in shops.
+  2. They fixed this  by creating a virtual  shopping  environment
+2. An A.I health system designed to work for one hospital might not have the same results for another hospital
+
+**Data Bias:**
+1. Most facial recognition systems today use a higher proportion of white faces as training data (study by IBM in 2019)
+2. Companies today cannot discriminate on sex, age or race while recruiting people but A.I algorithms can outsmart this process by using variables to reconstruct forbidden information
+
+**More complications**  
+* Self driving cars use a lot of virtual reality environments to train their cars since there are not so many self driving cars.
+* Data annonimization is hard and still does not work 100%
+* Facial recognition systems are sturggling to identify faces in the covid times where everyone covers their faces.
+
+**Data Markets**
+* Data preperation market was worth more than $1.5bn in 2019 and could grow to $3.5bn by 2024 (ref economist)
+* The data labeling business could be $4.1bn by 2024 (ref economist)
+* Data is the new oil term is not relevany anymore.
+* Processed data is the key
+
+### 3. Hard for businesses to adopt AI
+**Use of A.I in corporations**
+1. Most A.I examples we hear come from big tech giants (e.g Facebook, Amazon, Google, TikTok etc)
+   - Their brilliant algorithms justify their over the top valuations
+2. But adoption of A.I stops with tech giants
+3. Non-tech companies find it harder to see the benefits of using A.I (ref: Boston consultancy)
