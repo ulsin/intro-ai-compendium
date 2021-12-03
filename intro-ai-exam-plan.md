@@ -18,6 +18,13 @@
     - [8. Data Engineering](#8-data-engineering)
 - [Machine Learning](#machine-learning)
   - [Unsupervised](#unsupervised)
+    - [Clustering](#clustering)
+      - [K-Means Clustering](#k-means-clustering)
+      - [Guassian Mixture Model](#guassian-mixture-model)
+      - [Mean Shift Clustering](#mean-shift-clustering)
+      - [DBSCAN](#dbscan)
+    - [Association](#association)
+    - [Dimensionality Reduction](#dimensionality-reduction)
   - [Supervised](#supervised)
     - [Classification](#classification)
       - [Types](#types)
@@ -195,6 +202,10 @@ The process of discovering patterns in large data sets involving methods at the 
 # Machine Learning
 
 <p align="center">
+    <img src="pictures/ML-map-big.jpeg" style="width: auto;" alt="">
+</p>
+
+<p align="center">
     <img src="pictures/MLxkcdMap.jpg" style="width: auto;" alt="">
 </p>
 
@@ -216,17 +227,95 @@ The process of discovering patterns in large data sets involving methods at the 
     <img src="pictures/unsupervisedML.png" style="width: auto;" alt="">
 </p>
 
-* Clustering
-  - Recomender Systems
-    * Recommender systems are an important class of machine learning algorithms that offer "relevant" suggestions to users.
-    * These systems predict the most likely product that the users are most likely to purchase and are of interest to them
-  - Targeted Markeding
-  - Customer Segmenation
-* Dimensionality Reduction
-  - Meaningful Compression
-  - Structure Discovery
-  - Big Data Visualisation
-  - Feature Elicitation
+### Clustering
+When we want want to discover groupings in data
+
+- Recomender Systems
+  * Recommender systems are an important class of machine learning algorithms that offer "relevant" suggestions to users.
+  * These systems predict the most likely product that the users are most likely to purchase and are of interest to them
+- Targeted Markeding
+- Customer Segmenation
+
+<p align="center">
+    <img src="pictures/clustering.png" style="width: auto;" alt="">
+</p>
+
+#### K-Means Clustering
+K-means is a distance based algorithm where we calculate distancesbetween data points to assign a point to the cluster
+
+<p align="center">
+    <img src="pictures/k-means-clustering.png" style="width: auto;" alt="">
+</p>
+
+**It will stop when**
+* The centroids have been stabilized – there is no change in their values since clustering has been successful
+* A centroid is the imaginary or real location representing the center of the cluster.
+* The defined number of iterations have been reached.
+
+**Advantages of K-means**
+* Very simple to run. (choose k and run it a number of times)
+* Most projects donot need quality sensitive clusters
+
+**Uses of K-means**
+* Document classification
+* Customer segmentation
+* Fraud detection (insurance n bank)
+* Ride share data analysis (uber etc)
+* Detection of anomalies
+* Sorting sensor measurements
+
+#### Guassian Mixture Model
+* Very similar to K-Means HOWEVER
+* K-menas follows a circular format
+* Gaussian can take on any format
+
+<p align="center">
+    <img src="pictures/guassian-mixture.png" style="width: auto;" alt="">
+</p>
+
+#### Mean Shift Clustering
+* It locates the heavy density clusters in a data
+* Uses:
+  * Computer vision
+  * Image processing
+
+#### DBSCAN
+Density-Based Spatial Clustering of Applications with Noise
+
+* This is also a density based algorithm
+* It separates regions by areas of low-density so that it can detect outliers between the high-density clusters.
+* Uses two parameters:
+* minPts: the minimum number of data points that need to be clustered together for an area to be considered high-density
+* Eps: the distance used to determine if a data point is in the same area as other data points
+
+<p align="center">
+    <img src="pictures/dbscan.png" style="width: auto;" alt="">
+</p>
+
+### Association
+- When we want rules that describe our data
+
+<p align="center">
+    <img src="pictures/association.png" style="width: auto;" alt="">
+    <img src="pictures/assocation-2.png.png" style="width: auto;" alt="">
+
+</p>
+
+<p align="center">
+    <img src="pictures/association-map.png" style="width: auto;" alt="">
+</p>
+
+* is used for mining frequent itemsets and devising association rules.
+* It is created to operate on a database containing a lot of transactions, for instance, items brought by customers in a store.
+* This is the algorithm behind: “You may also like”
+
+### Dimensionality Reduction
+- Meaningful Compression
+- Structure Discovery
+- Big Data Visualisation
+- Feature Elicitation
+
+
 
 ## Supervised
 Two Types, Classification and Regression
@@ -300,12 +389,7 @@ Two Types, Classification and Regression
   - Or just higher dimension plane same dimension of data
   - n dimension vector for n dimensoin data
 
-**Uses of support vector machines**
-
-<p align="center">
-    <img src="pictures/support-vector.png" style="width: auto;" alt="">
-</p>
-
+**Uses of support vector machines**  
 * Used to detect cancerous cells
 * Used to predict driving routes
 * Face detection
