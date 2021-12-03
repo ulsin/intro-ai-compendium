@@ -172,7 +172,7 @@ The process of discovering patterns in large data sets involving methods at the 
   * ETL programming
 
 <p align="center">
-    <img src="pictures/data-mining-process.png" style="width: auto;" alt="">
+    <img src="pictures/data-warehousing.png" style="width: auto;" alt="">
 </p>
 
 ### 8. Data Engineering
