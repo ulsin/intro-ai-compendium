@@ -1,4 +1,29 @@
-# Four parts
+# Table of Contents
+
+- [Table of Contents](#table-of-contents)
+- [Intro](#intro)
+  - [General Programming vs AI](#general-programming-vs-ai)
+  - [Steps to Design an AI system](#steps-to-design-an-ai-system)
+  - [Daily life of an A.I programmer](#daily-life-of-an-ai-programmer)
+- [Data](#data)
+  - [Data pitfalls (problems which can occur with data)](#data-pitfalls-problems-which-can-occur-with-data)
+  - [How to work with data ?](#how-to-work-with-data-)
+    - [1. Data labeling / annotation](#1-data-labeling--annotation)
+    - [2. Data annonimization](#2-data-annonimization)
+    - [3. Synthetic data](#3-synthetic-data)
+    - [4. Data preperation](#4-data-preperation)
+    - [5. Data wrangling](#5-data-wrangling)
+    - [6. Data mining](#6-data-mining)
+    - [7. Data warehousing](#7-data-warehousing)
+    - [8. Data Engineering](#8-data-engineering)
+- [Machine Learning](#machine-learning)
+  - [Unsupervised](#unsupervised)
+  - [Supervised](#supervised)
+    - [Classification](#classification)
+    - [Regression](#regression)
+  - [Reinforcement learning](#reinforcement-learning)
+- [Limitations](#limitations)
+
 # Intro
 - AI smart and dumb at once
 - AI is when we artificially introduce intelligence in machines
