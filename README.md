@@ -1,1 +1,1 @@
-Just click the .md file here on github to see a render in your browser
+Just click the `intro-ai-exam-plan.md` file here on github to see a render in your browser
