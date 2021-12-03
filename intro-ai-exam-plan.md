@@ -450,12 +450,23 @@ Important types
   * Attending all lectures in Intro to A.I course will result in passing the exam
 * There is always an input variable (x) and an output variable (y)
   * Y can be calculated from a linear combination of input variables (x)
+* Two Types
+  * Simple Linera Regression (single input value)
+  * Muliple Linera Regression (multiple input value)
 
 <p align="center">
     <img src="pictures/linear-regression.png" style="width: auto;" alt="">
 </p>
 
+
+
 ##### Polynomial Regression
+- Also Linear, but curved line (like polynomial function hahah)
+- Can create a better fit on values that seem to be curving
+
+<p align="center">
+    <img src="pictures/lnear-vs-poly-regression.png" style="width: auto;" alt="">
+</p>
 
 
 ## Reinforcement learning
