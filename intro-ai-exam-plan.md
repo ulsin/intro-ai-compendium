@@ -24,6 +24,7 @@
       - [Mean Shift Clustering](#mean-shift-clustering)
       - [DBSCAN](#dbscan)
     - [Association](#association)
+      - [Apriori algorithm](#apriori-algorithm)
     - [Dimensionality Reduction](#dimensionality-reduction)
   - [Supervised](#supervised)
     - [Classification](#classification)
@@ -311,6 +312,11 @@ Density-Based Spatial Clustering of Applications with Noise
     <img src="pictures/association-map.png" style="width: auto;" alt="">
 </p>
 
+* is used for mining frequent itemsets and devising association rules.
+* It is created to operate on a database containing a lot of transactions, for instance, items brought by customers in a store.
+* This is the algorithm behind: “You may also like”
+
+#### Apriori algorithm
 * is used for mining frequent itemsets and devising association rules.
 * It is created to operate on a database containing a lot of transactions, for instance, items brought by customers in a store.
 * This is the algorithm behind: “You may also like”
