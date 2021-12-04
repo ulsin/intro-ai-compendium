@@ -9,9 +9,9 @@
   - [Data pitfalls (problems which can occur with data)](#data-pitfalls-problems-which-can-occur-with-data)
   - [How to work with data ?](#how-to-work-with-data-)
     - [1. Data labeling / annotation](#1-data-labeling--annotation)
-    - [2. Data annonimization](#2-data-annonimization)
+    - [2. Data anonymization](#2-data-anonymization)
     - [3. Synthetic data](#3-synthetic-data)
-    - [4. Data preperation](#4-data-preperation)
+    - [4. Data preparation](#4-data-preparation)
     - [5. Data wrangling](#5-data-wrangling)
     - [6. Data mining](#6-data-mining)
     - [7. Data warehousing](#7-data-warehousing)
@@ -20,7 +20,7 @@
   - [Unsupervised](#unsupervised)
     - [Clustering](#clustering)
       - [K-Means Clustering](#k-means-clustering)
-      - [Guassian Mixture Model](#guassian-mixture-model)
+      - [Gaussian Mixture Model](#gaussian-mixture-model)
       - [Mean Shift Clustering](#mean-shift-clustering)
       - [DBSCAN](#dbscan)
     - [Association](#association)
@@ -49,7 +49,7 @@
 # Intro
 - AI smart and dumb at once
 - AI is when we artificially introduce intelligence in machines
-- Solves Problme without human interaction
+- Solves Problem without human interaction
 
 
 ## General Programming vs AI
@@ -71,7 +71,7 @@
 
 3 Types of AI
 - Narrow (the ones we have today)
-  - Dedicated to assist wiht or take over specific tasks
+  - Dedicated to assist with or take over specific tasks
 
 - General AI (Human like in capabilities)
   - Takes knowledge from one domain and transfers to other domain
@@ -79,7 +79,7 @@
 - Super AI (Currently fictional, ie. The Matrix, Skynet, BLAME!)
   - Machines that are an order of magnitude smarter than humans
 
-- Turring test (1950)
+- Turing test (1950)
   - A test a computer can pass, to try and pass as a human
   - Google Duplex has passed this
 
@@ -105,7 +105,7 @@ AI has helped with:
 # Data
 
 Two main points
-- Data clearning
+- Data cleaning
 - Feature Engineering
 
 <p align="center">
@@ -125,7 +125,7 @@ Data is the new oil
 * Outliers
   * Excluding  outliers
   * Including  outliers
-* Ignroing seasonality
+* Ignoring seasonality
   * Easter vacations,  summer holidays,  black Friday etc.
 * Context is critical
   * Ignoring  size when reporting  growth
@@ -138,13 +138,13 @@ Data is the new oil
 - Setting labels on certain features of the data
 - Can be aided by clustering on unlabeled data to accelerate the process
 
-### 2. Data annonimization
-- Faking atributes to similar but non identifying values, to retain the patterns of the data without the identifying information
+### 2. Data anonymization
+- Faking attributes to similar but non identifying values, to retain the patterns of the data without the identifying information
 
 ### 3. Synthetic data
 - Generating data to aid with padding a data set
 
-### 4. Data preperation
+### 4. Data preparation
 This is done before the data is used for training the model, to optimise the quality of the model. Better data = Better model  
 
 <p align="center">
@@ -165,20 +165,20 @@ This is done before the data is used for training the model, to optimise the qua
   * There are a large number of possible  features, such  as edges and objects. 
 
 **Feature Extraction**  
-Extracting sub-freatures from columns(in this context features) of the data set, which can be extracted manually *(Think 3NF hahah)*
+Extracting sub-features from columns(in this context features) of the data set, which can be extracted manually *(Think 3NF hahah)*
 - Location
-  - Adress, City, State and Zip code
+  - Address, City, State and Zip code
 - Time
   - Year, month day hour minute time ranges (numeric)
   - Weekdays or weekend (binary true / false state)
 - Numbers
-  - Age numbers can be turned into ranges (oridnal or categorical)
+  - Age numbers can be turned into ranges (ordinal or categorical)
 
 **Transformations**  
 Create new features out of existing data  
 
 **Aggregations**  
-Create features which are based on combining other features in some way (grouping or putting some mathematical funcion on them)  
+Create features which are based on combining other features in some way (grouping or putting some mathematical function on them)  
 
 ### 5. Data wrangling
 The process of transforming and mapping data from one "raw" data form into another format with the intent of making it more appropriate and valuable for a variety of downstream purposes such as analytics.
@@ -237,18 +237,18 @@ The process of discovering patterns in large data sets involving methods at the 
 ### Clustering
 When we want want to discover groupings in data
 
-- Recomender Systems
+- Recommender Systems
   * Recommender systems are an important class of machine learning algorithms that offer "relevant" suggestions to users.
   * These systems predict the most likely product that the users are most likely to purchase and are of interest to them
-- Targeted Markeding
-- Customer Segmenation
+- Targeted Marketing
+- Customer Segmentation
 
 <p align="center">
     <img src="pictures/clustering.png" style="width: auto;" alt="">
 </p>
 
 #### K-Means Clustering
-K-means is a distance based algorithm where we calculate distancesbetween data points to assign a point to the cluster
+K-means is a distance based algorithm where we calculate distances between data points to assign a point to the cluster
 
 <p align="center">
     <img src="pictures/k-means-clustering.png" style="width: auto;" alt="">
@@ -261,7 +261,7 @@ K-means is a distance based algorithm where we calculate distancesbetween data p
 
 **Advantages of K-means**
 * Very simple to run. (choose k and run it a number of times)
-* Most projects donot need quality sensitive clusters
+* Most projects do not need quality sensitive clusters
 
 **Uses of K-means**
 * Document classification
@@ -271,9 +271,9 @@ K-means is a distance based algorithm where we calculate distancesbetween data p
 * Detection of anomalies
 * Sorting sensor measurements
 
-#### Guassian Mixture Model
+#### Gaussian Mixture Model
 * Very similar to K-Means HOWEVER
-* K-menas follows a circular format
+* K-means follows a circular format
 * Gaussian can take on any format
 
 <p align="center">
@@ -312,19 +312,19 @@ Density-Based Spatial Clustering of Applications with Noise
     <img src="pictures/association-map.png" style="width: auto;" alt="">
 </p>
 
-* is used for mining frequent itemsets and devising association rules.
+* is used for mining frequent item-sets and devising association rules.
 * It is created to operate on a database containing a lot of transactions, for instance, items brought by customers in a store.
 * This is the algorithm behind: “You may also like”
 
 #### Apriori algorithm
-* is used for mining frequent itemsets and devising association rules.
+* is used for mining frequent item-sets and devising association rules.
 * It is created to operate on a database containing a lot of transactions, for instance, items brought by customers in a store.
 * This is the algorithm behind: “You may also like”
 
 ### Dimensionality Reduction
 - Meaningful Compression
 - Structure Discovery
-- Big Data Visualisation
+- Big Data Visualization
 - Feature Elicitation
 
 
@@ -364,9 +364,9 @@ Two Types, Classification and Regression
   * Gender classification from hair length (classification: Male or Female)
   * Stock market price prediction (classification: high or low)
 
-**Aplications**
+**Applications**
 - Image Classification
-  - ML for detecing cat pictures
+  - ML for detecting cat pictures
   - Collect Data (Pictures of cats and not cats)
   - Label Data (Clustering could help with labeling) (Label images with cats, and those without cats)
   - Train Model with labeled data
@@ -377,12 +377,12 @@ Two Types, Classification and Regression
 </p>
 
   - Customer Retention
-  - Identity Frad Detection
+  - Identity Fraud Detection
   - Diagnostics
 
 #### Types
 * Decision Trees
-* K-Nearest Neighbour
+* K-Nearest Neighbor
 * Random Forest
 
 ##### Support vector machines
@@ -392,14 +392,14 @@ Two Types, Classification and Regression
 </p>
 
 * Main use is to classify unseen data
-* Supprt vector machines classifies the data by finding a clear seperation between the data points
+* Support vector machines classifies the data by finding a clear separation between the data points
   * It looks for a hyperplane
 * Can be used both in classification and regression
 
 **Hyperplanes**
 - 3D vector for 3D data
   - Or just higher dimension plane same dimension of data
-  - n dimension vector for n dimensoin data
+  - n dimension vector for n dimension data
 
 **Uses of support vector machines**  
 * Used to detect cancerous cells
@@ -414,8 +414,8 @@ Two Types, Classification and Regression
 * Memory efficient
 
 **Cons**
-* They donot provide probability estimates. Those are calculated using an 
-expensive five fold cross vsalidation
+* They do not provide probability estimates. Those are calculated using an 
+expensive five fold cross validation
 * Works best on small sample sets because of its high training time
 
 ##### Logistic regression (This is not a regression algorithm)
@@ -426,13 +426,13 @@ expensive five fold cross vsalidation
   * Allows to put a threshold value. e.g 0.5 (use case spam detection)
 
 **Uses**  
-* Logistic regression is used to predict the occurance of some event. e.g 
+* Logistic regression is used to predict the occurrence of some event. e.g 
 * Predict whether rain will occur or not
 * spam detection, Diabetes prediction, cancer detection etc.
 
 **Types of Logistic Regression**
 * Binary logistic regression (e.g pass / fail)
-* Multiclass logistic regression (e.g cats, dogs, sheep)
+* Multi-class logistic regression (e.g cats, dogs, sheep)
 * Ordinal (low, medium, high)
 
 <p align="center">
@@ -447,22 +447,22 @@ expensive five fold cross vsalidation
 </p>
 
 2. Sigmoid Activation
-  - Making a sigmoid curve (s-curve) which defines to classification binary for making the binary descicion
-3. Descision boundary
+  - Making a sigmoid curve (s-curve) which defines to classification binary for making the binary decision
+3. Decision boundary
   - Setting a threshold value
 4. Making predictions
   - Based on a value from the function we can place on either side of the boundary
 5. Cost function
   - Measures how wrong hte model is in terms of ability to estimate relationship between two values
   - Gradient Descent
-6. Map probabbilities to classes
+6. Map probabilities to classes
   - Based on the dividing line, it is either class A or class B, (or more but in this case it is binary)
 7. Finish Up
 * Train the model
 * Evaluate the model
-  * Minimzie the cost with repeated iterations
+  * Minimize the cost with repeated iterations
 * Measure the accuracy of your outputs
-* Meausre the probabbility score
+* Measure the probability score
 
 
 ##### Naïve Bayes classifier
@@ -480,7 +480,7 @@ expensive five fold cross vsalidation
 
 
 
-**Bayres Theorem**  
+**Bayes Theorem**  
 Bayes's theorem describes the probability of an event, based on prior knowledge of conditions that might be related to the event
 
 <p align="center">
@@ -520,7 +520,7 @@ We can also say
 </p>
 
 
-**Aplications**
+**Applications**
 - Advertising Popularity Prediction
 - Weather Forecasting
 - Market Forecasting
@@ -547,8 +547,8 @@ Important types
 * There is always an input variable (x) and an output variable (y)
   * Y can be calculated from a linear combination of input variables (x)
 * Two Types
-  * Simple Linera Regression (single input value)
-  * Muliple Linera Regression (multiple input value)
+  * Simple Linear Regression (single input value)
+  * Multiple Linear Regression (multiple input value)
 
 <p align="center">
     <img src="pictures/linear-regression.png" style="width: auto;" alt="">
@@ -571,12 +571,12 @@ Important types
     <img src="pictures/reinforcementChart.png" style="width: auto;" alt="">
 </p>
 
-**Aplications**
+**Applications**
 * Game AI (Guessing the sort where an AI plays a game)
-* Skill Acuisition
+* Skill Acquisition
 * Learning Tasks
 * Robot Navigation
-* Real-time desciscions
+* Real-time decisions
 
 * Reinforcement Learning is a type of machine learning technique that enables an agent to learn in an interactive environment by trial and error using feedback from its own actions and experiences.
 * Whenever the model predicts or produces a result, it is penalized if the prediction is wrong or rewarded if the prediction is correct.
@@ -593,7 +593,7 @@ Important types
 * AI is an advanced algorithm: All things which were impossible to do by human programmers can be done by A.I
 * Autonomous robots (we will be able to make General A.I).
 * AI is the new electricity: Its a force which will power everything
-* Self driving car companies predict that robo taxis will revolutionalize transport
+* Self driving car companies predict that robot-taxis will revolutionize transport
 * In 2016 Geoffrey Hinton, remarked that we should stop training radiologists and instead unleash the power of A.I in health
 * An AI firm called BlueDot claims it spotted signs of a novel virus in reports from Chinese hospitals as early as December 2019 (ref Economist).
 * Almost all companies today either have an A.I strategy or are thinking of adopting one.
@@ -610,14 +610,14 @@ Important types
 * a survey of European ai startups by mmc, a venture-capital fund, found that 40% did not seem to be using any ai at all (ref: Economist)
 
 ## Examples
-**The hype of A.I has far exceeded the science of A.I**
-**After years of hype, people think A.I has still not delivered**
-**Training an A.I algorithm to achieve the last 10% is much much harder than the first 90%**
+**The hype of A.I has far exceeded the science of A.I**  
+**After years of hype, people think A.I has still not delivered**  
+**Training an A.I algorithm to achieve the last 10% is much much harder than the first 90%**  
 
 ### 1. Driverless Cars
 1. Tesla claims to have autonomous driving (2018) but drivers still need to keep their hands on the wheels
 2. General Motors planned to launch self driving taxis in San Francisco by 2019.
-3. In 2019 a self drivign car by Uber became the first to kill a pedestrian
+3. In 2019 a self driving car by Uber became the first to kill a pedestrian
 4. Waymo in America and WeRide in China, are geographically limited and rely on human safety drivers. 
 5. Many driverless car startups going bankrupt because the technology is hard to master
 
@@ -633,13 +633,13 @@ Important types
 
 **More complications**  
 * Self driving cars use a lot of virtual reality environments to train their cars since there are not so many self driving cars.
-* Data annonimization is hard and still does not work 100%
-* Facial recognition systems are sturggling to identify faces in the covid times where everyone covers their faces.
+* Data anonymization is hard and still does not work 100%
+* Facial recognition systems are struggling to identify faces in the covid times where everyone covers their faces.
 
 **Data Markets**
-* Data preperation market was worth more than $1.5bn in 2019 and could grow to $3.5bn by 2024 (ref economist)
+* Data preparation market was worth more than $1.5bn in 2019 and could grow to $3.5bn by 2024 (ref economist)
 * The data labeling business could be $4.1bn by 2024 (ref economist)
-* Data is the new oil term is not relevany anymore.
+* Data is the new oil term is not relevant anymore.
 * Processed data is the key
 
 ### 3. Hard for businesses to adopt AI
