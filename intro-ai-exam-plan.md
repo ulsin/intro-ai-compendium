@@ -109,7 +109,7 @@ Two main points
 - Feature Engineering
 
 <p align="center">
-    <img src="pictures/data.webp" style="width: auto;" alt="">
+    <img src="pictures/data.png" style="width: auto;" alt="">
 </p>
 
 <p align="center">
@@ -227,6 +227,12 @@ The process of discovering patterns in large data sets involving methods at the 
 <p align="center">
     <img src="pictures/MLmap3.png" style="width: auto;" alt="">
 </p>
+
+<p align="center">
+    <img src="pictures/a-machine-learning.png" style="width: auto;" alt="">
+</p>
+
+*A machine learning?*
 
 ## Unsupervised
 
@@ -427,8 +433,8 @@ expensive five fold cross validation
 
 **Uses**  
 * Logistic regression is used to predict the occurrence of some event. e.g 
-* Predict whether rain will occur or not
-* spam detection, Diabetes prediction, cancer detection etc.
+  * Predict whether rain will occur or not
+* Spam detection, Diabetes prediction, cancer detection etc.
 
 **Types of Logistic Regression**
 * Binary logistic regression (e.g pass / fail)
